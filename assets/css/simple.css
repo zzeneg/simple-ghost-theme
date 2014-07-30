@@ -1,12 +1,13 @@
 /* ========== COMMON STYLES ========== */
 html {
-	width:100%;
-	height:100%;
-	padding:0;
+    width:100%;
+    height:100%;
+    padding:0;
 }
 
 body {
     background:linear-gradient(#fff, #f3f3f3, #fff);
+    background-attachment: fixed;
     margin: 0;
     font:100 90% helvetica,arial,verdana,sans-serif;
     color:#494949;
@@ -174,7 +175,7 @@ blockquote small {
 }
 
 blockquote small:before {
-	content: '\2014 \00A0';
+    content: '\2014 \00A0';
 }
 
 blockquote cite {
@@ -182,7 +183,7 @@ blockquote cite {
 }
 
 blockquote cite a {
-	font-weight: normal;
+    font-weight: normal;
 }
 
 mark {
@@ -244,6 +245,3 @@ kbd {
 .gist .line-number {
     font-size: 0.8rem;
 }
-
-
-
