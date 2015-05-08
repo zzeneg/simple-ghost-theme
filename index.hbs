@@ -1,5 +1,5 @@
 {{!< default}}
-{{! The comment above "< default" means - insert everything in this file into the {body} of the default.hbs template, which contains our header/footer. }}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{#foreach posts}}
 
@@ -30,5 +30,5 @@
 
 {{/foreach}}
 
-{{!! After all the posts, we have the previous/next pagination links }}
+{{! Previous/next page links - only displayed on page 2+ }}
 {{pagination}}

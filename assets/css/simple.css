@@ -145,6 +145,10 @@ p {
     opacity:0.75;
 }
 
+.post img {
+    margin: 10px 0;
+}
+
 /* ========== DEFAULT STYLES ========== */
 /* Slightly adapted from Casper (https://github.com/TryGhost/Casper/) */
 hr {
@@ -203,7 +207,6 @@ code, tt {
 pre {
     margin: 1.6em 0;
     border: 1px solid #E3EDF3;
-    width: 100%;
     padding: 10px;
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.9em;
